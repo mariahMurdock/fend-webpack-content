@@ -3,14 +3,14 @@ const webpack = require('webpack')
 
 module.exports = {
     entry: './src/client/index.js',
-    devtool: 'source-map',
-    module: {
+    output: { ...output options }
+}
+module: {
         rules: [
-            {
-                test: '/\.js$/',
-                exclude: /node_modules/,
-                loader: "babel-loader"
-            }
+                {
+            test: '/\.js$/',
+            exclude: /node_modules/,
+            loader: "babel-loader"
+                }
         ]
-    }
 }
