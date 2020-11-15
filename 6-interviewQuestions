@@ -1,0 +1,10 @@
+Interview Question
+You start work on a project with webpack already installed, but there is no specific build for production. Walk me through the steps of setting up a production environment in webpack
+
+
+Name two or three reasons developers often prefer to work with sass or less over vanilla css.
+
+Your reflection
+syntax
+Things to think about
+Some common answers would be: Terser, more efficient syntax than css (like sass nesting) Extra syntax options (like the sass ampersand) More flexibility (sass variables, mixins, and includes)
